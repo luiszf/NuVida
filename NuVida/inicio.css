@@ -4,8 +4,9 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
+/*INICIO CABECALHO*/
 header#linha-baixo{
     border-bottom: 5px solid #5ce1e6;
     margin-top: 20px;
@@ -16,6 +17,31 @@ header#linha-cima{
     margin-top: -159px;
     border-bottom: 10px solid #5ce1e6;
 }
+ul#usuarios{
+    list-style: none;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul#usuarios li:hover{
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-in;
+}
+ul#usuarios li#login{
+    color: black;
+    background-color: #5ce1e6;
+    margin-left: 1200px;
+    margin-top: -17px;
+    padding: 6px;
+}
+ul#usuarios li#cadastro{  
+    background-color: #5ce1e6;
+    margin-left: 1090px;
+    margin-right: 110px;
+    margin-top: -30px;
+    padding: 6px;
+}
+/*FIM CABECALHO*/
 div#unidades{
     width: 10px;
     height: 450px;
@@ -70,7 +96,6 @@ div#faixa{
     width: 100%;
     background-color:  #5ce1e6;
     text-align: left;
-    color: white;
     padding: 1px;
     text-shadow: 2px 2px 5px black;
     margin-top: 15px;
@@ -80,6 +105,7 @@ div#faixa{
 div#faixa h1:hover{
     -webkit-transform: scale(1.1);
     -webkit-transition: all 0.1s ease-in;
+    color: white;
 }
 ul#o-v-r li{
     width: 300px;
@@ -125,7 +151,7 @@ ul#o-v-r li#exames{
     margin-top: -270px;
 }
 footer#rodape{
-    color:  black;
+    color: rgba(0,0,0,0.7);
     border-top: 1px solid #5ce1e6;
     text-align: center;
 }
