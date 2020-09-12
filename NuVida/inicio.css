@@ -22,24 +22,29 @@ ul#usuarios{
     display: block;
     text-align: center;
     text-transform: uppercase;
+    width: -10px;
+}
+ul#usuarios li{
+    padding: 6px;
+    background-color: #5ce1e6;
 }
 ul#usuarios li:hover{
     -webkit-transform: scale(1.1);
     -webkit-transition: all 0.5s ease-in;
 }
 ul#usuarios li#login{
-    color: black;
-    background-color: #5ce1e6;
     margin-left: 1200px;
     margin-top: -17px;
-    padding: 6px;
 }
 ul#usuarios li#cadastro{  
-    background-color: #5ce1e6;
     margin-left: 1090px;
     margin-right: 110px;
-    margin-top: -30px;
-    padding: 6px;
+    margin-top: -30px;  
+}
+ul#usuarios li#quemsomos{
+    margin-left: 966px;
+    margin-right: 220px;
+    margin-top: -31px;
 }
 /*FIM CABECALHO*/
 div#unidades{

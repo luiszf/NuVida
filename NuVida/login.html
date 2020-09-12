@@ -6,26 +6,27 @@
     <title>NuVida - Saúde na sua vida</title>
     <link rel="stylesheet" href="inicio.css"/>
     <link rel="stylesheet" href="login.css"/>
+    <link href="https://fonts.googleapis.com/css2?
+family=Barlow:wght@500&display=swap" rel="stylesheet"/>
 </head>
 
-<script src="_javascript/funcoes.js"></script>
-
-<script>
-    function calc_total(){
-        var qtd = parseInt(document.getElementById('cQuantidade').value);
-         tot = qtd * 1500;
-         document.getElementById('cTotal').value = tot;
-    }
-</script>
-
 <body>
+    <div id="cabecalho">
     <header id="linha-baixo">
         <img src="fotos/logo-nuvida.jpg" alt="Nome da clínica">
     </header>    
     <header id="linha-cima"></header>
+    
+    <ul id="usuarios">
+        <li id="login"><a href="login.html">Login</a></li>
+        <li id="cadastro"><a href="cadastro.html">Cadastro</a></li>
+        <li id="quemsomos"><a href="quemsomos.html">Quem somos</a></li>
+    </ul>
+</div>
+   
 
 <div id="interface">
-<form method="post" id="fContato" action="mailto:luisfernandodasilvasantos16@gmail.com" oninput="calc_total"/>
+<form method="post" id="fLogin" action="mailto:luisfernandodasilvasantos16@gmail.com"/>
 <fieldset id="usuario"><legend>Login</legend>
     <p><label for="Cmail">E-mail: </label><input type="email" name="tMail" id="Cmail" size="20" max="40" placeholder="Coloque um email valído"/></p>
     <p><label for="cSenha">Senha: </label><input type="password" name="tSenha" id="cSenha" size="15" maxlength="8" placeholder="Senha de 8 digítos"/></p>
