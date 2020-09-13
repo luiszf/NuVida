@@ -24,6 +24,26 @@ ul#p-a-m-f span{
     line-height: 80px;
     text-transform: uppercase;
 }
+div#registro{
+    opacity: 1;
+}
+fieldset#paciente{
+    width: 370px;
+    margin-left: 600px;
+    margin-top: -400px;
+    margin-bottom: 30px;
+    border-color: #5ce1e6;
+}
+fieldset#paciente legend{
+    text-transform: uppercase;
+}
+input, textarea{
+    font-size: 11pt;
+    background-color: rgba(255,255,255,.8);
+}
+input:hover, textarea:hover{
+    background-color: #dddddd;
+}
 footer#rodape{
     color: rgba(0,0,0,0.7);
     border-top: 1px solid #5ce1e6;

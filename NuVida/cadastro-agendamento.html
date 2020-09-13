@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="cadastro-funcionario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet"> 
+    <title>NuVida - Saúde na sua vida</title>
+</head>
+<body>
+    <div id="cabecalho">
+       <header id="linha-baixo">
+          <img src="fotos/logo-nuvida.jpg" alt="Nome da clínica">
+       </header>    
+       <header id="linha-cima"></header>
+
+    <ul id="usuarios">
+        <li id="login"><a href="login.html">Login</a></li>
+        <li id="cadastro"><a href="cadastro.html">Cadastro</a></li>
+        <li id="quemsomos"><a href="quemsomos.html">Quem somos</a></li>
+    </ul>
+    </div>
+    <div id="escolha-cadastro">
+        <article id="cadastros">
+           <ul id="p-a-m-f">
+            <li id="pacientes"><span><a href="cadastro-paciente.html">Paciente</a></span></li>
+               <li id="agendamentos"><span><a href="cadastro-agendamento.html">Agendamentos</a></span></li>
+               <li id="medicos"><span><a href="cadastro-medico.html">Médico</a></span></li>
+               <li id="funcionarios"><span><a href="cadastro-funcionario.html">Funcionário</a></span></li>
+           </ul>
+        </article>
+    </div>
+    <div id="registro">
+       <form method="post" id="cPaciente"/>
+           <fieldset id="paciente"><legend>Cadastro de Agendamento</legend>
+            <p><label for="cCpf">CPF:  </label><input
+                type="tel" name="tCpf" id="cCpf" size="15"
+                  maxlength="12" placeholder="Cadastre seu CPF"/></p>
+            <p><label for="cName">Nome: </label><input type="text" name="tName"id="cName" placeholder="Ex: João da Silva"/></p>
+            <p><label for="cData">Data de Nascimento: </label><input type="date" name="tData" id="cData" placeholder="01/01/2020"></p>
+               <p><label for="Cmail">E-mail: </label><input 
+                    type="email" name="tMail" id="Cmail" size="20" 
+                     max="40" placeholder="Cadastre um email valído"/></p>
+               <p><label for="cTel">Telefone: </label><input
+                        type="tel" name="tTel" id="cTel" size="15"
+                          maxlength="8" placeholder="Ex: +55(11)9777-777"/></p>
+               <p><label for="cPlano">Plano de saúde: </label><input
+                            type="text" name="tPlano" id="cPlano" size="15"
+                              maxlength="8" placeholder="Se não tiver, deixe vazio"/></p>         
+           </fieldset>                                       
+       </form>
+    </div>
+    <footer id="rodape">
+        <p>NuVida - Saúde na sua vida</p>
+        <p>Elogie aqui | Reclame aqui</p>
+    </footer>
+</body>
