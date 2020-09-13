@@ -64,21 +64,21 @@ ul#tres-unidades li{
     box-shadow: 2px 2px 1px #5ce1e6;
 }
 ul#tres-unidades li#paulista{
-    background: url(fotos/paulista1.jpg);
+    background: url(../fotos/paulista1.jpg);
     background-position: 50% 50%;
     background-size: 300px 100px;
     margin-left: 50px;
     text-align: center;
 }
 ul#tres-unidades li#paraiso{
-    background: url(fotos/paraiso1.jpg);
+    background: url(../fotos/paraiso1.jpg);
     background-position: 50% 50%;
     background-size: 300px 100px;
     margin-left: 400px;  
     text-align: center;
 }
 ul#tres-unidades li#sao-bento{
-    background: url(fotos/saobento1.jpg);
+    background: url(../fotos/saobento1.jpg);
     background-position: 50% 50%;
     background-size: 300px 100px;
     margin-left: 750px;
@@ -137,19 +137,19 @@ ul#o-v-r span{
     text-transform: uppercase;
 }
 ul#o-v-r li#odontologia{  
-    background:url(fotos/dentista1.jpg) no-repeat; background-position: 50% 50%;
+    background:url(../fotos/dentista1.jpg) no-repeat; background-position: 50% 50%;
     background-size: 300px 250px;
     margin-left: 122px;
 }
 ul#o-v-r li#vacinas{ 
-    background:url(fotos/vacina1.jpg)no-repeat;
+    background:url(../fotos/vacina1.jpg)no-repeat;
     background-size: 300px 250px;
     background-position: 50% 50%;
     margin-left: 472px;
     margin-top: -270px;
 }
 ul#o-v-r li#exames{
-    background:url(fotos/exame1.jpg) no-repeat;
+    background:url(../fotos/exame1.jpg) no-repeat;
     background-size: 300px 250px;
     background-position: 50% 50%;
     margin-left: 822px;
