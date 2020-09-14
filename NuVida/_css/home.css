@@ -37,13 +37,18 @@ ul#usuarios li#login{
     margin-top: -17px;
 }
 ul#usuarios li#cadastro{  
-    margin-left: 1090px;
-    margin-right: 110px;
+    margin-left: 1085px;
+    margin-right: 100px;
     margin-top: -30px;  
 }
 ul#usuarios li#quemsomos{
     margin-left: 966px;
-    margin-right: 220px;
+    margin-right: 215px;
+    margin-top: -31px;
+}
+ul#usuarios li#home{
+    margin-left: 880px;
+    margin-right: 335px;
     margin-top: -31px;
 }
 /*FIM CABECALHO*/
