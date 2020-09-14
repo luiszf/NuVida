@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+form{   
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 135px;
+    font-family: 'Barlow', sans-serif;  
+}
+input, textarea{
+    font-size: 11pt;
+    background-color: rgba(255,255,255,.8);
+}
+input:hover, textarea:hover{
+    background-color: #dddddd;
+}
+fieldset{
+    border-color:#5ce1e6;
+    margin: 100px;
+    height: 150px;
+}
+fieldset#usuario legend{
+    text-transform: uppercase;
+}
+fieldset#usuario ::placeholder{
+    text-align: center;
+}
+fieldset#usuario input#enviar{
+    text-transform: uppercase;
+}
+fieldset#usuario input#enviar:hover{
+    -webkit-transform: scale(1.2);
+    -webkit-transition: all 0.3s ease-in;
+}

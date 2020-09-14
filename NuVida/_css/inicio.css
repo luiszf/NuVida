@@ -64,21 +64,21 @@ ul#tres-unidades li{
     box-shadow: 2px 2px 1px #5ce1e6;
 }
 ul#tres-unidades li#paraisopolis{
-    background: url(../fotos/paulista1.jpg);
+    background: url(../fotos/paraisopolis.jpg);
     background-position: 50% 50%;
     background-size: 300px 100px;
     margin-left: 50px;
     text-align: center;
 }
 ul#tres-unidades li#morumbi{
-    background: url(../fotos/paraiso1.jpg);
+    background: url(../fotos/morumbi.jpg);
     background-position: 50% 50%;
     background-size: 300px 100px;
     margin-left: 400px;  
     text-align: center;
 }
 ul#tres-unidades li#vila_sonia{
-    background: url(../fotos/saobento1.jpg);
+    background: url(../fotos/vila_sonia.jpg);
     background-position: 50% 50%;
     background-size: 300px 100px;
     margin-left: 750px;
