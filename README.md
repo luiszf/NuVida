@@ -2,7 +2,7 @@
 
 ## Objective
 
-To expose my projects.
+To sell pizzas in an easy way.
 
 ## Host
 
