@@ -1,4 +1,4 @@
-# PedePizza - Chatbot
+# PedePizza | Chatbot
 
 ## Objective
 
