@@ -1,4 +1,4 @@
-# PedePizza - Chatbot | Luis Fernando
+# PedePizza - Chatbot
 
 ## Objective
 
