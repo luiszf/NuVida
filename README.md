@@ -2,27 +2,6 @@
 
 ## Objective
 
-To sell pizza.
-
-## Host
-
-Access the website: https://luisfernando.netlify.app/
- 
-## Tools
-
-The following tools were used to build the project:
-
-- JavaScript
-- CSS3
-- HTML
-- Bootstrap
-- Figma
-
-## Images
-# Portfólio 1 | Luis Fernando
-
-## Objective
-
 To expose my projects.
 
 ## Host
