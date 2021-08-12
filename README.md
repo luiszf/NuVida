@@ -20,7 +20,7 @@ The following tools were used to build the project:
 
 ## Images
 
-![image](https://user-images.githubusercontent.com/67171626/129213970-199a8daa-b84b-4f8a-86f2-488a9f6edcb3.png)
+![image](https://user-images.githubusercontent.com/67171626/129214751-198d338b-a0c4-485c-ba27-ad5b31452094.png)
 
 ## License
 <img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
