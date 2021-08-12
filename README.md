@@ -2,11 +2,11 @@
 
 ## Objective
 
-To sell pizzas in an easy way. Easy for the customer to order, easy for the company to sell.
+To sell pizzas in an easy way with the App. Easy for the customer to order, easy for the company to sell.
 
 ## Host
 
-Access the website: https://luisfernando.netlify.app/
+Access the webApp: https://pedepizza.netlify.app/
  
 ## Tools
 
@@ -15,12 +15,12 @@ The following tools were used to build the project:
 - JavaScript
 - CSS3
 - HTML
-- Bootstrap
 - Figma
 
 ## Images
 
-![image](https://user-images.githubusercontent.com/67171626/126706508-ebab9c53-2542-469f-bff9-aa415bbc087e.png)
+![image](https://user-images.githubusercontent.com/67171626/129214751-198d338b-a0c4-485c-ba27-ad5b31452094.png)
+![image](https://user-images.githubusercontent.com/67171626/129216442-278322a5-9cd5-4e30-a193-7de884c9ceb3.png)
 
 ## License
 <img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
