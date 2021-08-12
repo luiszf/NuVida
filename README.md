@@ -6,7 +6,7 @@ To sell pizzas in an easy way with the App. Easy for the customer to order, easy
 
 ## Host
 
-Access the website: https://luisfernando.netlify.app/
+Access the webApp: https://pedepizza.netlify.app/
  
 ## Tools
 
