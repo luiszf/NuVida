@@ -15,7 +15,6 @@ The following tools were used to build the project:
 - JavaScript
 - CSS3
 - HTML
-- Bootstrap
 - Figma
 
 ## Images
