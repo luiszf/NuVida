@@ -2,7 +2,7 @@
 
 ## Objective
 
-To sell pizzas in an easy way. Easy for the customer to order, easy for the company to sell.
+To sell pizzas in an easy way with the App. Easy for the customer to order, easy for the company to sell.
 
 ## Host
 
