@@ -23,7 +23,7 @@ The following tools were used to build the project:
 ![image](https://user-images.githubusercontent.com/67171626/129259799-91cbf7a3-3af6-47d1-8cb3-2892c99141d3.png)
 
 ## License
-<img src="https://img.shields.io/github/license/luisfernandodass/doebrasil"/>
+<img src="https://img.shields.io/github/license/luisfernandodass/pedePizza-chatbot"/>
 
 ## Author
 
