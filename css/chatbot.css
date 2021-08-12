@@ -54,7 +54,6 @@ body{
 .every-box-msg{
   display: flex;
   align-items: center;
-  height: 2rem;
   margin: .7rem .9rem;
   padding: .5rem .8rem;
   border-radius: .4rem;
