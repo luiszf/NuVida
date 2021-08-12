@@ -1,0 +1,136 @@
+html, body, div, span, h4, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation{
+  background: #A8030C;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  padding: .8rem 0;
+  align-items: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+body{
+  background: #cfcfcf;
+}
+
+.navigation span{
+  margin-left: .7rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.navigation span:hover{
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.navigation img{
+  margin-left: .7rem;
+  max-width: 100%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navigation h4{
+  margin: 0 .7rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.container-conversation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow-x: hidden;
+}
+
+.every-box-msg{
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin: .7rem .9rem;
+  padding: .5rem .8rem;
+  border-radius: .4rem;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.client-msg{
+  grid-column: 2;
+  justify-self: right;
+  background: #cfb4b5;
+}
+
+.companie-msg{
+  grid-column: 1;
+  justify-self: left;
+  background: #fff;
+}
+
+.every-box-msg::after, .every-box-msg::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 20px;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
+
+.client-msg::after{
+  right: -20px;
+  border-left: 10px solid #cfb4b5;;
+  border-right: 10px solid transparent;
+}
+
+.companie-msg::before{
+  left: -20px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #fff;
+}
+
+.container-toSend-msg{
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  padding: .5rem 0;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  background: #cfcfcf;
+}
+
+.container-toSend-msg input{
+  border: 0;
+  border-radius: 1.8rem;
+  padding: .9rem;
+  width: 80%;
+  margin-left: .7rem;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-toSend-msg button{
+  background: #A8030C;
+  color: #fff;
+  margin: 0 .7rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
